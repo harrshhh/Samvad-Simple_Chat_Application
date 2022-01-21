@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background:url('/images/bg2.jpg');
+}
+
+header img{
+    display: block;
+    height: 70px;
+    width: 100px;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+    background: #f1cc7b;
+    width: 60%;
+    font-weight: 900;
+    color: rgb(16 0 255);
+   margin: auto;
+}
+.container{
+    background: url('/images/bgchat.jpg');
+    height: 70vh;
+    border-radius: 25px;
+    width: 60%;
+    color: wheat;
+    display: block;
+    margin: auto;
+    overflow-y: auto;
+}
+.box{
+    background: rgb(6, 66, 1);
+    border: 2px solid blue;
+    border-radius: 8px 10px;
+    margin: 20px 15px;
+    padding:9px;
+    font-size: large;
+}
+.center{
+    text-align: center;
+    border-color: white;
+    font-weight: bolder;
+    color: violet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    clear: both;
+    
+
+}
+.left{
+    background: rgb(6, 66, 1);
+    border: 2px solid blue;
+    border-radius: 8px 10px;
+    margin: 20px 15px;
+    padding:9px;
+    font-size: large;
+    display: block;
+    float: left;
+    clear: both;
+}
+.right{
+    background: rgb(6, 66, 1);
+    border: 2px solid blue;
+    border-radius: 8px 10px;
+    margin: 20px 15px;
+    padding:9px;
+    font-size: large;
+    float: right;
+    outline:none;
+    clear: both;
+}
+
+form{
+text-align: center;
+padding: 10px ;
+margin: auto;
+}
+#send_box{
+    padding: 10px;
+    width: 54vw;
+    margin-left: 6px;
+    background: cadetblue;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-size: 17px;
+    border-radius: 5px 8px;
+    
+}
+/* ::placeholder{
+    color:white;
+} */
+.btn{
+    padding: 10px;
+    cursor: pointer;
+    background: chocolate;
+    border-radius: 7px;
+    border: 2px solid blue;
+}
